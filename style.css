@@ -1,0 +1,78 @@
+*{
+  color: #ffffff;
+ /* border: 5px solid black; */
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #000000;
+  /* background-image: url(folk-pattern-black.png); */
+  background-repeat: repeat;
+}
+header{}
+h1{
+  font-family: 'Poiret One', cursive;
+  font-size: 90px;
+  margin: 10px 922px;
+  text-align: right;
+  float: left;
+}
+.banner{
+  height: 350px;
+  background-image: url(images/lake.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50px;
+}
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.container1{
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 34px;
+  text-align: center;
+  /* transition: width 4s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 1s;*/
+}
+section{
+  margin:10px;
+  padding:10px;
+}
+nav{
+  font-family: 'Red Hat Display', sans-serif;
+  margin: 48px auto;
+}
+ul{
+  font-size: 19px;
+  list-style-type: none;
+  margin: 0;
+  padding: 1px;
+}
+li{
+  float: left;
+  text-decoration: none;
+}
+li a:hover{
+  /* background-color: #ffffff;*/
+  font-size: 23px;
+  background-color: #000000;
+  font-family: 'Red Hat Display', sans-serif;
+  /* color:#000000; */
+  /* border-style: groove 3px; */
+   border-radius: 50px
+}
+nav a{
+  margin: 100px;
+  padding: 20px;
+  text-decoration: none;
+}
+footer{
+  font-family: 'Red Hat Display', sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
