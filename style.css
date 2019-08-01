@@ -39,6 +39,13 @@ h1{
   transition-timing-function: ease-in-out;
   transition-delay: 1s;*/
 }
+.container2{
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
 section{
   margin:10px;
   padding:10px;
@@ -47,6 +54,11 @@ nav{
   font-family: 'Red Hat Display', sans-serif;
   margin: 48px auto;
 }
+.float-image{
+  float: top;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
 ul{
   font-size: 19px;
   list-style-type: none;
@@ -54,6 +66,9 @@ ul{
   padding: 1px;
 }
 li{
+  line-height:2;
+}
+nav ul li{
   float: left;
   text-decoration: none;
 }
