@@ -79,7 +79,7 @@ section{
 }
 nav{
   font-family: 'Red Hat Display', sans-serif;
-  margin: 48px auto;
+  margin: 40px auto;
 }
 .float-image{
   float: top;
@@ -105,7 +105,7 @@ li a:hover{
   background-color: #000000;
   font-family: 'Red Hat Display', sans-serif;
   /* color:#000000; */
-  border-style: groove 3px;
+  border-style: groove 10px;
   border-radius: 50px
 }
 nav a{
